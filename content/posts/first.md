@@ -8,8 +8,8 @@ header_img : ""
 thumbnails : ""
 short : false
 toc : true
-tags : []
-categories : []
+tags : ["sugar","salts"]
+categories : ["spices"]
 series : []
 comment : true
 ---
