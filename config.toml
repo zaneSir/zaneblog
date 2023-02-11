@@ -1,0 +1,93 @@
+baseURL = 'https://localhost:1313'
+languageCode = 'en-us'
+
+title = 'Robert Blog'
+theme = 'hugo-theme-puppet'
+
+paginate = 3
+
+enableInlineShortcodes = true
+enableEmoji = true
+
+googleAnalytics = ""
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+[markup.highlight]
+noClasses = true
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = false
+style = "dracula"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# menu
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = -100
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+[[menu.main]]
+identifier = "notes"
+name = "notes"
+url = "/"
+weight = 50
+[[menu.main]]
+identifier = "dashboard"
+name = "Menu2"
+url = "/"
+weight = 100
+
+
+[params]
+author = "Robert KC"
+description = "A place where I pour my thoughts."
+keywords = "blog, personal"
+img_home = "img/cover.jpg"
+img_404 = "img/404-bg.jpg"
+
+useFaviconGenerator = true
+
+[params.sidebar]
+enable = true
+gravatarEmail = ""
+# Overwritten by your gravatar image if `gravatarEmail` is filled
+avatar = "img/logoDark.png"
+bio = "a personal website"
+
+[params.social]
+twitter = "its_robKC"
+# facebook = "johndoe"
+# zhihu = "johndoe"
+# weibo = "johndoe"
+# github = "johndoe"
+# gitlab = "johndoe"
+# linkedin = "johndoe"
+rss = true
+
+
+[[params.friends]]
+name = "Ashish"
+url = "https://ashishghimire.com"
+
