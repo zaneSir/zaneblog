@@ -1,7 +1,7 @@
-baseURL = 'https://localhost:1313'
+baseURL = 'https://ayurblogs.com'
 languageCode = 'en-us'
 
-title = 'Robert Blog'
+title = 'Ayur Blogs'
 theme = 'hugo-theme-puppet'
 
 paginate = 3
@@ -83,6 +83,7 @@ twitter = "its_robKC"
 # weibo = "johndoe"
 # github = "johndoe"
 # gitlab = "johndoe"
+
 # linkedin = "johndoe"
 rss = true
 
